@@ -1,0 +1,30 @@
+{
+  "name": "clampography",
+  "version": "0.9.0",
+  "description": "Fluid typography system based on CSS clamp() for Tailwind CSS v4",
+  "main": "clampography.css",
+  "style": "clampography.css",
+  "files": [
+    "clampography.css"
+  ],
+  "keywords": [
+    "alternative",
+    "blog",
+    "clamp",
+    "content",
+    "css",
+    "fluid",
+    "fluid-typography",
+    "font",
+    "font-size",
+    "markdown",
+    "style",
+    "tailwind",
+    "tailwind-css",
+    "tailwindcss",
+    "text",
+    "typography"
+  ],
+  "author": "Dawid Wąsowski",
+  "license": "MIT"
+}
