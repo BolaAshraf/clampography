@@ -1,17 +1,4 @@
 @layer base {
-  /* ==========================================================================
-
-   CLAMPOGRAPHY
-
-   A fluid typography system matching @tailwindcss/typography standards.
-   
-   PHILOSOPHY:
-   - No default styling (no colors, borders, transforms, decorations)
-   - Structure only: size, spacing, weight, font-family
-   - Contextual elements use 'em' (relative), blocks use 'clamp' (fluid)
-
-   ========================================================================== */
-
   /* --------------------------------------------------------------------------
    ROOT CONFIGURATION
    -------------------------------------------------------------------------- */
@@ -40,7 +27,6 @@
 
   body {
     font-family: var(--font-family-base);
-    /* Typography standard: 16px → 18px (not 14px) for optimal readability */
     font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
     line-height: 1.75;
 
@@ -58,21 +44,19 @@
    -------------------------------------------------------------------------- */
 
   :where(h1, h2, h3, h4, h5, h6) {
-    font-weight: 600; /* Default weight, individual headings override */
+    font-weight: 600;
     scroll-margin-top: var(--scroll-offset);
   }
 
   h1 {
-    /* Typography standard: 36px → 48px (matches prose-base → prose-lg) */
     font-size: clamp(2.25rem, 1.95rem + 1.5vw, 3rem);
-    line-height: 1.1111; /* Tailwind Typography uses tighter line-height for h1 */
-    font-weight: 800; /* Typography uses heavier weight for h1 */
+    line-height: 1.1111;
+    font-weight: 800;
     margin-top: 0;
     margin-bottom: var(--spacing-xl);
   }
 
   h2 {
-    /* Typography standard: 24px → 30px */
     font-size: clamp(1.5rem, 1.35rem + 0.75vw, 1.875rem);
     line-height: 1.3333;
     font-weight: 700;
@@ -81,7 +65,6 @@
   }
 
   h3 {
-    /* Typography standard: 20px → 24px */
     font-size: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
     line-height: 1.6;
     margin-top: var(--spacing-lg);
@@ -89,7 +72,6 @@
   }
 
   h4 {
-    /* Typography standard: stays at body size (16px → 18px) */
     font-size: clamp(1rem, 0.975rem + 0.125vw, 1.125rem);
     line-height: 1.5;
     margin-top: var(--spacing-lg);
@@ -97,15 +79,14 @@
   }
 
   h5 {
-    /* H5/H6 rarely used in prose, but keep them proportional */
-    font-size: 1rem; /* Fixed at body size, distinguished by weight */
+    font-size: 1rem;
     line-height: 1.5;
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-xs);
   }
 
   h6 {
-    font-size: 0.875rem; /* Slightly smaller for hierarchy */
+    font-size: 0.875rem;
     line-height: 1.5;
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-xs);
@@ -453,7 +434,6 @@
     margin-top: var(--spacing-xl);
     margin-bottom: var(--spacing-xl);
     border: 0;
-    /* Border style moved to global.css */
   }
 
   /* --------------------------------------------------------------------------
@@ -475,7 +455,6 @@
     margin-bottom: var(--spacing-xs);
   }
 
-  /* Dialog element - semantic modal */
   dialog {
     font-size: inherit;
     line-height: inherit;
