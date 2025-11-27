@@ -5,7 +5,7 @@
 Instead of fixed sizes, it uses the CSS
 [clamp()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp)
 function to create fluid typography that adapts to any screen. With
-[94%+ global browser support](https://caniuse.com/css-math-functions), it works
+[94% global browser support](https://caniuse.com/css-math-functions), it works
 on nearly all devices.
 
 Designed for [Tailwind v4's](https://tailwindcss.com/blog/tailwindcss-v4)
