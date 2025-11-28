@@ -45,7 +45,9 @@ bun install clampography
 /* Override default heading styles */
 @layer base {
   h1 {
-    letter-spacing: 0.05em;
+    font-size: clamp(2.35rem, 1.95rem + 1.5vw, 4rem);
+    font-weight: 400;
+    line-height: 1.15;
   }
 }
 ```
