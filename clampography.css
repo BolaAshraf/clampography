@@ -93,6 +93,60 @@
   }
 
   /* --------------------------------------------------------------------------
+   LINKS - Clickable Text (Structural Indicators)
+   -------------------------------------------------------------------------- */
+
+  a {
+    /* Structural underline - indicates clickability */
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.0625em; /* 1px at 16px base */
+    text-underline-offset: 0.15em; /* Space from baseline */
+    cursor: pointer;
+  }
+
+  /* Remove underline from heading links */
+  :where(h1, h2, h3, h4, h5, h6) a {
+    text-decoration: none;
+  }
+
+  /* --------------------------------------------------------------------------
+   MENU - Interactive Lists (Toolbars, Navigation)
+   -------------------------------------------------------------------------- */
+
+  menu {
+    list-style: none;
+    margin-bottom: var(--spacing-md);
+    padding-left: 0; /* No indentation - unlike ul/ol */
+  }
+
+  /* Remove custom markers from menu items */
+  menu > li::before {
+    display: none;
+  }
+
+  /* --------------------------------------------------------------------------
+   HGROUP - Heading Groups (Title + Subtitle)
+   -------------------------------------------------------------------------- */
+
+  hgroup {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  /* Reduce spacing between heading and subtitle */
+  hgroup :where(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: var(--spacing-xs);
+  }
+
+  /* Subtitle/tagline styling (typically <p>) */
+  hgroup :where(p) {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.875em; /* Relative to parent context */
+    font-weight: 400; /* Lighter than heading */
+    line-height: 1.5;
+  }
+
+  /* --------------------------------------------------------------------------
    TEXT CONTENT - Paragraphs & Inline Elements
    -------------------------------------------------------------------------- */
 
@@ -450,6 +504,10 @@
   summary {
     cursor: pointer;
     font-weight: 600;
+  }
+
+  details[open] > summary {
+    margin-bottom: var(--spacing-xs);
   }
 
   dialog {

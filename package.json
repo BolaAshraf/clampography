@@ -1,6 +1,6 @@
 {
   "name": "clampography",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Fluid typography system based on CSS clamp() for Tailwind CSS v4",
   "main": "clampography.css",
   "style": "clampography.css",
