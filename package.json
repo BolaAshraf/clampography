@@ -1,6 +1,6 @@
 {
   "name": "clampography",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Fluid typography system based on CSS clamp() for Tailwind CSS v4",
   "main": "clampography.css",
   "style": "clampography.css",
@@ -26,6 +26,11 @@
     "text",
     "typography"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Avaray/clampography.git"
+  },
+  "homepage": "https://github.com/Avaray/clampography#readme",
   "author": "Dawid Wąsowski",
   "license": "MIT"
 }

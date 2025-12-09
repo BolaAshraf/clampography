@@ -26,11 +26,11 @@ npm install clampography
 # Install with PNPM
 pnpm add clampography
 
-# Install with Deno
-deno install npm:clampography
-
 # Install with Bun
 bun install clampography
+
+# Install with Deno
+deno install npm:clampography
 ```
 
 ## Usage
