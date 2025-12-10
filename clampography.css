@@ -97,10 +97,9 @@
    -------------------------------------------------------------------------- */
 
   a {
-    /* Structural underline - indicates clickability */
     text-decoration-line: underline;
-    text-decoration-thickness: 0.0625em; /* 1px at 16px base */
-    text-underline-offset: 0.15em; /* Space from baseline */
+    text-decoration-thickness: 0.0625em;
+    text-underline-offset: 0.15em;
     cursor: pointer;
   }
 
@@ -116,7 +115,7 @@
   menu {
     list-style: none;
     margin-bottom: var(--spacing-md);
-    padding-left: 0; /* No indentation - unlike ul/ol */
+    padding-left: 0;
   }
 
   /* Remove custom markers from menu items */
@@ -141,8 +140,8 @@
   hgroup :where(p) {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 0.875em; /* Relative to parent context */
-    font-weight: 400; /* Lighter than heading */
+    font-size: 0.875em;
+    font-weight: 400;
     line-height: 1.5;
   }
 
@@ -173,7 +172,7 @@
 
   /* Contextual sizing - uses 'em' to scale with parent */
   small {
-    font-size: 0.875em; /* 87.5% of parent */
+    font-size: 0.875em;
     line-height: 1.5;
   }
 
@@ -210,7 +209,6 @@
     cursor: help;
   }
 
-  /* Editorial marks - semantic text changes */
   del {
     text-decoration: line-through;
   }
@@ -219,12 +217,12 @@
     text-decoration: underline;
   }
 
-  /* Strikethrough - presentational (not semantic like del) */
+  /* Strikethrough */
   s {
     text-decoration: line-through;
   }
 
-  /* Underline - presentational (not semantic like ins) */
+  /* Underline */
   u {
     text-decoration: underline;
   }
@@ -379,7 +377,6 @@
     margin-top: var(--spacing-md);
     margin-bottom: var(--spacing-md);
     font-family: var(--font-family-mono);
-    font-size: 0.875em;
     line-height: 1.6;
     overflow-x: auto;
   }
