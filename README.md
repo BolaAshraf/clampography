@@ -13,13 +13,24 @@ on nearly all modern devices.
 - **Smart scaling:** Contextual elements use `em` (relative), blocks use
   `clamp()` (fluid).
 
-### The purpose
+## The purpose
 
 CSS resets like [Tailwind's Preflight](https://tailwindcss.com/docs/preflight)
 remove all browser typography defaults, leaving you with unstyled text.
 **Clampography** delivers production-ready text scaling that responds to
 viewport changes automatically, while leaving all aesthetic choices to you.
 Visit the [demo page](https://dav.one/clampography/) to see how it looks.
+
+## Requirements
+
+Use [Vite](https://vitejs.dev/), [Webpack](https://webpack.js.org/), or similar
+build tool for CSS bundling. Popular frameworks like
+[Astro](https://astro.build/), [Next.js](https://nextjs.org/),
+[Remix](https://remix.run/), and
+[SvelteKit](https://svelte.dev/docs/kit/introduction) include CSS bundling by
+default and work seamlessly with **Clampography**. Without a build tool, native
+CSS `@import` combined with `@layer` has about 91% browser coverage and only
+works in browsers released since early 2022.
 
 ## Installation
 
