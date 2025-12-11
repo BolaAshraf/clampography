@@ -1,8 +1,9 @@
 # 🙌 Clampography
 
 [![npm version](https://img.shields.io/npm/v/clampography)](https://www.npmjs.com/package/clampography)
-[![license](https://img.shields.io/npm/l/clampography)](https://github.com/Avaray/clampography/blob/main/LICENSE)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/clampography)](https://bundlephobia.com/package/clampography)
+[![license](https://img.shields.io/npm/l/clampography)](https://github.com/Avaray/clampography/blob/main/LICENSE)
 
 **Clampography** is a CSS-only alternative to the official
 [Tailwind CSS Typography plugin](https://github.com/tailwindlabs/tailwindcss-typography).
