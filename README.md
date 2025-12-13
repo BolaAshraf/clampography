@@ -15,12 +15,12 @@ on nearly all modern devices.
 
 ## The purpose
 
-CSS resets like [Tailwind's Preflight](https://tailwindcss.com/docs/preflight)
-remove all browser typography defaults, leaving you with unstyled text.
-**Clampography** delivers production-ready text scaling that responds to
-viewport changes automatically, while leaving all aesthetic choices to you.
-Visit the temporary [demo page](https://next.dav.one/clampography/) to see how
-it looks.
+[CSS resets](https://en.wikipedia.org/wiki/Reset_style_sheet) like
+[Tailwind's Preflight](https://tailwindcss.com/docs/preflight) remove all
+browser typography defaults, leaving you with unstyled text. **Clampography**
+delivers production-ready text scaling that responds to viewport changes
+automatically, while leaving all aesthetic choices to you. Visit the temporary
+[demo page](https://next.dav.one/clampography/) to see how it looks.
 
 ## Requirements
 
