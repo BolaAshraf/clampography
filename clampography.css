@@ -361,10 +361,19 @@
 
   dd {
     margin-left: var(--spacing-md);
-    margin-bottom: var(--spacing-xs);
   }
 
-  /* Last dd shouldn't have bottom margin */
+  /* Spacing between term and definition (consistent with lists) */
+  dt + dd {
+    margin-top: var(--spacing-xs);
+  }
+
+  /* Spacing between multiple definitions (consistent with list items) */
+  dd + dd {
+    margin-top: var(--spacing-xs);
+  }
+
+  /* Remove bottom margin from last dd */
   dd:last-child {
     margin-bottom: 0;
   }
